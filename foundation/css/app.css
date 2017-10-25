@@ -1,0 +1,38 @@
+body{
+  background: url(../img/cocina.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.contenido{
+  background-color: rgba(247, 180, 245, 0.2);
+}
+.navegacion{
+  background-color: #DA81F5;
+}
+.publicaciones{
+  background-color: #D358F7;
+}
+.vertic{
+  border-right: 1px solid #D8D8D8;
+  height: 100%;
+}
+.fecha{
+  color: #d8d8d8;
+}
+.favoritos{
+  padding-bottom: 5px;
+}
+.sec{
+  background-color: #DA81F5;
+}
+#historial{
+  list-style: none;
+}
+#historial li{
+  padding-bottom: 5px;
+}
+span img{
+  width: 15%;
+}

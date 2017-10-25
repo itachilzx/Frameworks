@@ -1,0 +1,40 @@
+
+body{
+  background-color: blue;
+  color: black;
+}
+.titulo {
+  background: url(../img/concierto.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.titulo img{
+  width: 40%;
+  height: 40%;
+}
+.enlaces{
+  box-sizing: padding-box;
+}
+.enlaces button{
+  color: black;
+}
+.enlaces button:hover{
+  color: white;
+  text-decoration: none;
+}
+.redes img{
+  width: 7%;
+  height: 11%;
+  float: right;
+}
+.contenido{
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+.cranberries img{
+  width: 50%;
+}
