@@ -1,1 +1,13 @@
-
+.contenido{
+  background-color: rgba(247, 180, 245, 0.2);
+}
+#logo{
+  width: 100%;
+  padding-top: 1rem;
+}
+.botones{
+  padding: 1rem;
+}
+#icono{
+  width: 100%;
+}
