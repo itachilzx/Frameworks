@@ -1,3 +1,11 @@
+body{
+  background-color: #00BFFF;
+  background-image: url(../img/cerro.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .contenido{
   background-color: rgba(247, 180, 245, 0.2);
 }
@@ -8,6 +16,20 @@
 .botones{
   padding: 1rem;
 }
-#icono{
+.icono{
   width: 100%;
+}
+.foto{
+  width: 100%;
+}
+.publicacion{
+  background-color: white;
+}
+.pub-img{
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.me{
+  width: 50%;
+  padding-top: 1rem;
 }
