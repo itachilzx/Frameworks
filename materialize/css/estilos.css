@@ -16,6 +16,9 @@ body{
 .botones{
   padding: 1rem;
 }
+.boton{
+  background-color: blue;
+}
 .icono{
   width: 100%;
 }
@@ -24,12 +27,16 @@ body{
 }
 .publicacion{
   background-color: white;
+  padding: 1rem;
 }
-.pub-img{
-  padding-left: 1rem;
-  padding-top: 1rem;
+#pub-img{
+  width: 50%;
+  padding: 1rem;
 }
 .me{
   width: 50%;
   padding-top: 1rem;
+}
+.comentarios{
+  background-color: blue;
 }
