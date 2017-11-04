@@ -1,13 +1,13 @@
 body{
   background-color: #00BFFF;
-  background-image: url(../img/cerro.jpg);
+  background-image: url(../img/cabos.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 .contenido{
-  background-color: rgba(247, 180, 245, 0.2);
+  background-color: rgba(247, 180, 245, 0.1);
 }
 #logo{
   width: 100%;

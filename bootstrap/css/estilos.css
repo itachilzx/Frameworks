@@ -1,40 +1,53 @@
-
 body{
-  background-color: blue;
-  color: black;
+  background-color: purple;
+  color: white;
 }
-.titulo {
-  background: url(../img/concierto.jpg);
+header{
+  background-image: url(../img/concierto.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+.redes{
+	margin: 1 auto;
+}
+a:hover{
+  color: purple;
+}
+#logo{
+  margin: 0 auto;
+  padding: 5% 0 5% 10%;
+}
+#bloque{
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+#icono{
+  padding-top: 10rem;
+}
+.blog{
+  background-color: black;
+}
+.post{
+  text-align: justify;
+}
+#imagen{
+  padding-top: 10%;
   width: 100%;
-  height: 100%;
 }
-.titulo img{
-  width: 40%;
-  height: 40%;
+.user-coment{
+	font-size: 300%;
+	margin: 0 30%;
 }
-.enlaces{
-  box-sizing: padding-box;
-}
-.enlaces button{
+.txtarea{
+	width: 80%;
+	max-height: 100px;
   color: black;
 }
-.enlaces button:hover{
-  color: white;
-  text-decoration: none;
+.comentarios{
+	padding-top: 10px;
 }
-.redes img{
-  width: 7%;
-  height: 11%;
-  float: right;
-}
-.contenido{
-  box-sizing: border-box;
-  background-color: black;
-  color: white;
-}
-.cranberries img{
-  width: 50%;
+.generos{
+  padding-top: 2rem;
 }

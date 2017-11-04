@@ -3,77 +3,107 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
     <title>Musica</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
-    <header>
-      <div class="container titulo">
-        <div class="row">
-          <div class="col-lg-4">
-            <h2>
-              <img class="logo-img img-resposive" src="img/music.svg">
-            </h2>
-          </div>
-          <div class="col-lg-8">
-            <div class="col-lg-12 redes">
-              <h6>
-                <img src="img/ico1.png">
-                <img src="img/ico2.png">
-                <img src="img/ico3.png">
-              </h6>
-            </div>
-          </div>
+    <header class="container">
+      <div class="row">
+        <div class="col-lg-3 col-sm-5">
+          <img src="img/music.png" class="img-resposive" id="logo">
         </div>
+        <div class="col-lg-6 col-sm-2"></div>
+        <div class="col-lg-3 col-sm-5">
+          <ul class="list-inline redes" id="bloque">
+            <li><a href="#"><img src="img/ico1.png" id="icono"></a></li>
+            <li><a href="#"><img src="img/ico2.png" id="icono"></a></li>
+            <li><a href="#"><img src="img/ico3.png" id="icono"></a></li>
+            <li><a href="#"><img src="img/ico4.png" id="icono"></a></li>
+            <li><a href="#"><img src="img/ico5.png" id="icono"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <nav class="navbar" role="navigation">
+          <ul class="nav nav-pills nav-justified navbar-default">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Artistas</a></li>
+            <li><a href="#">Grupos</a></li>
+    				<li><a href="#">Top 10</a></li>
+    				<li><a href="#">Letras</a></li>
+    				<li><a href="#">Acordes</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <div class="container">
+    <section class="container blog">
       <div class="row">
-        <div class="col-lg-12" style="background-color: #BDBDBD">
-          <div class="navbar">
-            <div class="btn-group enlaces">
-              <div class="col-lg-3">
-                <button type="button" class="btn-lg btn-link">Inicio</button>
+        <div class="col-lg-8 col-sm-9">
+          <article>
+            <div class="row">
+              <div class="col-lg-7 col-sm-9">
+                <h3>Despues de casi 20 años finalmente... CRANBERRIES!!!!</h3>
+                <p class="post">En mi opinion fue un muy muy muy buen evento, considerando que Cranberries tiene una buena base de fans en Mexico, seguidores desde los 90's. Es arriesgado que hagan masivos en otros lados donde no probablemente llenarian y que mejor lugar que nuestro Cancun increible para realmente disfrutar un espectaculo tal como los Cranberries. Un lugar con muy buena acustica, una Dolores con una voz a la altura como siempre, una banda que suena como en sus buenos dias .... eventazo por donde lo vea!!</p>
               </div>
-              <div class="col-lg-3">
-                <button type="button" class="btn-lg btn-link">Artistas</button>
-              </div>
-              <div class="col-lg-3">
-                <button type="button" class="btn-lg btn-link">Grupos</button>
-              </div>
-              <div class="col-lg-3">
-                <button type="button" class="btn-lg btn-link">Top 10</button>
-              </div>
-              <div class="col-lg-3">
-                <button type="button" class="btn-lg btn-link">Letras</button>
-              </div>
-              <div class="col-lg-3">
-                <button type="button" class="btn-lg btn-link">Acordes</button>
+              <div class="col-lg-5 col-sm-3">
+                <img src="img/cranberries.jpg" class="img-resposive" id="imagen">
               </div>
             </div>
+            <div class="row comentarios">
+    			    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+    				    <span  class="glyphicon glyphicon-user user-coment" aria-hidden="true"></span>
+    			    </div>
+    			    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+      			    <textarea name="comentario" class="txtarea"></textarea>
+      		   </div>
+            </div>
+          </article>
+          <article>
+            <div class="row">
+              <div class="col-lg-6 col-sm-3">
+                <img src="img/temptation.jpg" class="img-resposive" id="imagen">
+              </div>
+              <div class="col-lg-6 col-sm-9">
+                <h3>Tarja Turunen y Sharon Den Adel juntas!!</h3>
+                <p class="post">Son dos de las voces, y también dos de los rostros, más conocidos del metal sinfónico, y la sorpresa que nos tenían guardada es que la finesa y la holandesa comparten protagonismo en el tema que da título al muy cercano nuevo EP de Within Temptation, ‘Paradise (What About Us?)’, que sale el viernes 27 de septiembre y contiene cuatro canciones nuevas: esa misma, que hace también las veces de single y del que muy pronto habrá videoclip, más versiones demo de tres temas que irán incluidos -evidentemente con otro sonido y otros arreglos- y se rumora de una gira de conciertos en los que nos deleitarán con su voz al unisono.</p>
+              </div>
+            </div>
+            <div class="row comentarios">
+    			    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+    				    <span  class="glyphicon glyphicon-user user-coment" aria-hidden="true"></span>
+    			    </div>
+    			    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+      			    <textarea name="comentario" class="txtarea"></textarea>
+      		   </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 visible-lg">
+          <div class="input-group">
+            <input type="text" style="margin-top:2px" name="buscador" class="form-control" placeholder="Buscar por:">
+            <span class="input-group-btn">
+              <button type="button" class="form-control glyphicon glyphicon-search"></button>
+            </span>
+          </div>
+          <div class="list-group generos">
+            <a href="#" class="list-group-item">Pop</a>
+            <a href="#" class="list-group-item">Ska</a>
+            <a href="#" class="list-group-item">Rock</a>
+            <a href="#" class="list-group-item">Metal Sinfonico</a>
+            <a href="#" class="list-group-item">Doom Metal</a>
+            <a href="#" class="list-group-item">Indie</a>
+            <a href="#" class="list-group-item">Electronica</a>
+            <a href="#" class="list-group-item">Alternativo</a>
+            <a href="#" class="list-group-item">Balada</a>
+            <a href="#" class="list-group-item">Orquesta</a>
+            <a href="#" class="list-group-item">Instrumental</a>
+            <a href="#" class="list-group-item">Tango</a>
+            <a href="#" class="list-group-item">Opera</a>
+            <a href="#" class="list-group-item">Musica Clasica</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container contenido">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="col-lg-6">
-            <h2>El reencuentro deseado.</h2>
-            <p>
-             En pocas palabras fue francamente inolvidable y una experiencia simplemente sublime. Jamas olvidaré la sensacion de estar ahí presente cantando hasta quedar afonico las canciones que han hecho a esta banda una de las mas grandes.<br> "Promises" Mi cancion favorita, fue la promesa cumplida que deseaba que no terminara.<br>
-             Jamas olvidaré tan fabulosa experiencia y espero ancioso un siguiente concierto que no perderé oportunidad para estar ahi entre las primeras filas para vivir una experiencia unica en la vida.
-            </p>
-            </div>
-            <div class="col-lg-6 cranberries">
-              <img src="img/cranberries.jpg">
-            </div>
-          </div>
-        <div class="col-lg-4">
-          <h1>Prueba</h1>
-        </div>
-      </div>
-    </div>
+    </section>
   </body>
 </html>
